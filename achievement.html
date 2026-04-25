@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --cream: #F7E6DA;
+      --peach: #F5D8C7;
+      --accent: #E44B4B;
+      --text-dark: #2C1A47;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Inter", sans-serif;
+      background: linear-gradient(180deg, var(--cream), var(--peach));
+      color: var(--text-dark);
+      line-height: 1.8;
+    }
+
+    .achievement-container {
+      max-width: 950px;
+      margin: 80px auto;
+      padding: 55px 50px;
+      background: rgba(255, 255, 255, 0.65);
+      border-radius: 24px;
+      box-shadow: 0 25px 50px rgba(0,0,0,0.1);
+    }
+
+    .achievement-title {
+      text-align: center;
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .achievement-subtitle {
+      text-align: center;
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 35px;
+    }
+
+    .achievement-content p {
+      font-size: 17.5px;
+      margin-bottom: 18px;
+      color: #3f3f3f;
+    }
+
+    .achievement-list {
+      list-style: none;
+      padding: 0;
+      margin: 30px 0;
+    }
+
+    .achievement-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      font-size: 17.5px;
+      margin-bottom: 18px;
+      color: #3f3f3f;
+    }
+
+    .achievement-list li::before {
+      content: "✅";
+      font-size: 20px;
+      line-height: 1.2;
+    }
+
+    .closing-note {
+      margin-top: 35px;
+      font-weight: 500;
+    }
+
+    @media (max-width: 768px) {
+      .achievement-container {
+        margin: 40px 15px;
+        padding: 35px 25px;
+      }
+
+      .achievement-title {
+        font-size: 28px;
+      }
+
+      .achievement-content p,
+      .achievement-list li {
+        font-size: 16.5px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="achievement-container">
+    <h1 class="achievement-title">Achievement</h1>
+    <p class="achievement-subtitle">
+      Her Health Project: <strong>Stay Informed, Stay Safe</strong>
+    </p>
+
+    <div class="achievement-content">
+      <p>
+        To wrap up 2024, we are excited to reflect on the success of our recent community outreach program
+        at Kabuga Health Care, Kano State, aimed at improving birth preparedness and supporting expecting
+        mothers and their families. This impactful event marked a meaningful step toward strengthening
+        community health outcomes.
+      </p>
+
+      <p>During this event, we:</p>
+
+      <ul class="achievement-list">
+        <li>
+          Distributed over 50 birth kits, providing essential tools to ensure safe deliveries for expecting mothers.
+        </li>
+        <li>
+          Provided transportation support to ensure no one was left behind due to barriers to access.
+        </li>
+        <li>
+          Delivered comprehensive educational talks, including a health awareness session on Antenatal Care (ANC),
+          presented by an experienced matron from Aminu Kano Teaching Hospital’s Department of Obstetrics
+          and Gynaecology, highlighting the importance of regular ANC visits.
+        </li>
+        <li>
+          Hosted a session on Emergency Awareness and Birth Preparedness, empowering women and families with
+          knowledge to respond effectively during pregnancy, labor, and delivery.
+        </li>
+      </ul>
+
+      <p>
+        At Her Health Project, we believe no woman should face the journey of motherhood without the right
+        support and knowledge. By working closely with communities, we remain committed to improving
+        maternal health and ensuring better outcomes for families.
+      </p>
+
+      <p>
+        We extend our heartfelt gratitude to all participants, volunteers, and the dedicated team at
+        Kabuga Health Care for making this outreach a success.
+      </p>
+
+      <p class="closing-note">
+        As we look ahead to 2025, we remain more committed than ever to advancing maternal health and
+        building healthier, stronger communities. Thank you for your continued support as we work
+        toward a world where <strong>her health truly matters</strong>.
+      </p>
+    </div>
+  </section>
+
+</body>
+</html>

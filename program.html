@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Programs – Her Health Project Hub</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --cream: #F7E6DA;
+      --peach: #F5D8C7;
+      --soft-pink: #F2B6A0;
+      --accent: #E44B4B;
+      --text-dark: #2C1A47;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Inter", sans-serif;
+      background: linear-gradient(180deg, var(--cream), var(--peach));
+      color: var(--text-dark);
+      line-height: 1.8;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 80px auto;
+      padding: 45px 40px;
+      background: rgba(255, 255, 255, 0.65);
+      border-radius: 20px;
+      box-shadow: 0 20px 45px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 34px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    h1 span {
+      color: var(--accent);
+    }
+
+    .program-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 22px;
+    }
+
+    .program-item {
+      background: rgba(255,255,255,0.75);
+      padding: 18px 20px;
+      border-radius: 14px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease;
+    }
+
+    .program-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .check {
+      font-size: 20px;
+      color: var(--accent);
+      line-height: 1.2;
+    }
+
+    .program-text {
+      font-size: 16.5px;
+      font-weight: 500;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        margin: 40px 15px;
+        padding: 30px 22px;
+      }
+
+      h1 {
+        font-size: 26px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Our <span>Programs</span></h1>
+
+    <div class="program-grid">
+      <div class="program-item">
+        <span class="check">✔️</span>
+        <div class="program-text">Sexual and Reproductive Health Education</div>
+      </div>
+
+      <div class="program-item">
+        <span class="check">✔️</span>
+        <div class="program-text">Maternal Care Support</div>
+      </div>
+
+      <div class="program-item">
+        <span class="check">✔️</span>
+        <div class="program-text">Family Planning Resources</div>
+      </div>
+
+      <div class="program-item">
+        <span class="check">✔️</span>
+        <div class="program-text">Adolescent Health Programs</div>
+      </div>
+
+      <div class="program-item">
+        <span class="check">✔️</span>
+        <div class="program-text">Post-menopausal Support</div>
+      </div>
+
+      <div class="program-item">
+        <span class="check">✔️</span>
+        <div class="program-text">Mental Health and Wellness Support</div>
+      </div>
+
+      <div class="program-item">
+        <span class="check">✔️</span>
+        <div class="program-text">Gender-Based Violence Support</div>
+      </div>
+
+      <div class="program-item">
+        <span class="check">✔️</span>
+        <div class="program-text">STIs Prevention and Management Services</div>
+      </div>
+
+      <div class="program-item">
+        <span class="check">✔️</span>
+        <div class="program-text">Vaccination Campaigns</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

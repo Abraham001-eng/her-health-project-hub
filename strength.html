@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --cream: #F7E6DA;
+      --peach: #F5D8C7;
+      --soft-pink: #F2B6A0;
+      --accent: #E44B4B;
+      --text-dark: #2C1A47;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Inter", sans-serif;
+      background: #F2B6A0;
+      color: var(--text-dark);
+      line-height: 1.8;
+    }
+
+    .strengths-container {
+      max-width: 900px;
+      margin: 80px auto;
+      padding: 50px 45px;
+      background: rgba(255, 255, 255, 0.65);
+      border-radius: 24px;
+      box-shadow: 0 25px 50px rgba(0,0,0,0.1);
+    }
+
+    .strengths-title {
+      text-align: center;
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 35px;
+    }
+
+    .strengths-title span {
+      color: var(--accent);
+    }
+
+    .strengths-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .strengths-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #3f3f3f;
+    }
+
+    .strengths-list li::before {
+      content: "✔️";
+      font-size: 20px;
+      line-height: 1.2;
+    }
+
+    @media (max-width: 768px) {
+      .strengths-container {
+        margin: 40px 15px;
+        padding: 35px 25px;
+      }
+
+      .strengths-title {
+        font-size: 28px;
+      }
+
+      .strengths-list li {
+        font-size: 16.5px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="strengths-container">
+    <h1 class="strengths-title">Our <span>Strengths</span></h1>
+
+    <ul class="strengths-list">
+      <li>
+        A trusted presence with strong community connections and policy influence
+      </li>
+      <li>
+        A skilled, globally connected research and implementation team
+      </li>
+      <li>
+        Proven experience in evidence synthesis, public health project design, and delivery
+      </li>
+      <li>
+        Consistent record of producing high-quality outputs aligned with international best practices
+      </li>
+    </ul>
+  </section>
+
+</body>
+</html>
